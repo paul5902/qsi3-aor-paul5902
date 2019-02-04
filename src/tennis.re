@@ -108,7 +108,7 @@ score =>
   | Points(p) => string_of_player(PlayerOne) 
     ++ " : " 
     ++ string_of_point(p.playerOne)
-    ++ " | "
+    ++ " - "
     ++ string_of_player(PlayerTwo) 
     ++ " : " 
     ++ string_of_point(p.playerTwo)
